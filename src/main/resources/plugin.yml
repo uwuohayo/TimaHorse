@@ -4,3 +4,7 @@ main: ovh.rootkovskiy.timahorse.Main
 authors: [ timurroot ]
 description: Simple plugin that adds the ability to ride each other
 website: www.rootkovskiy.ovh
+commands:
+  horse: {}
+  horseon: {}
+  horseoff: {}

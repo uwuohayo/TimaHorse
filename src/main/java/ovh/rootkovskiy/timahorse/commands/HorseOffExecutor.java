@@ -4,7 +4,6 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-
 import ovh.rootkovskiy.timahorse.Main;
 
 public class HorseOffExecutor implements CommandExecutor {
@@ -29,7 +28,7 @@ public class HorseOffExecutor implements CommandExecutor {
             return true;
         }
 
-        Player player = (Player)sender;
+        Player player = (Player) sender;
         Main.plrsWhoOffHorse.add(player);
         sender.sendMessage("&9╔ &bСистема&r".replace("&", "§"));
         sender.sendMessage("&9╚ &aТеперь вас не могут катать!&r".replace("&", "§"));
